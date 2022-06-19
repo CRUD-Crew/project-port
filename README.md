@@ -73,7 +73,7 @@ Organize your favorite coding projects and show off your work to the world! Proj
 
 ## Getting Started
 
-Simply visit: <a href="#">Coming Soon</a>
+Please visit: <a href="#">Coming Soon</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
