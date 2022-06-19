@@ -9,11 +9,11 @@ const PORT = process.env.PORT || 8000;
 MongoClient.connect(process.env.DB_STRING, { useUnifiedTopology: true })
     .then(client => {
         console.log('connected to mongodb');
-        
+
         app.use(express.static('public'));
         app.use(cors());
 
-        const db = client.db('project-port');
+        const db = client.db('projects');
 
         app.get('/', (req, res) => {
             res.json({
